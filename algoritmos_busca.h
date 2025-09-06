@@ -15,3 +15,5 @@ public:
 // Fábricas para criar instâncias concretas de algoritmos
 std::unique_ptr<AlgoritmoBusca> criar_busca_sequencial();
 std::unique_ptr<AlgoritmoBusca> criar_busca_binaria();
+
+// Com essas fábricas, fica mais fácil adicionar novos algoritmos no futuro sem modificar o código existente. Pois o main, por exemplo, só interage com a interface AlgoritmoBusca, não com as implementações concretas.
