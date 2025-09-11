@@ -1,4 +1,5 @@
-#include "algoritmos_busca.h"
+#include "buscas/algoritmos_busca.h"
+#include "ordenacao/algoritmos_ordenacao.h"
 #include <iostream>
 #include <vector>
 #include <memory>
