@@ -9,7 +9,7 @@ Este projeto foi desenvolvido para a disciplina de Estruturas de Dados Básicas 
 - [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [🏛️ Arquitetura Modular e Extensibilidade](#️-arquitetura-modular-e-extensibilidade)
 - [🛠️ Como Compilar e Executar](#️-como-compilar-e-executar)
-- [👨‍💻 Autor](https://github.com/DaviOts/Complexidade-_Algoritmos/edit/main/README.md#%E2%80%8D-autor)
+- [👨‍💻 Autor](#-autor)
 
 ---
 
