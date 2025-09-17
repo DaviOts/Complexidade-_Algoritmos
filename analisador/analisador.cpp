@@ -1,6 +1,6 @@
 #include "analisador.h"
-#include "buscas/algoritmos_busca.h"
-#include "ordenacao/algoritmos_ordenacao.h"
+#include "../buscas/algoritmos_busca.h"
+#include "../ordenacao/algoritmos_ordenacao.h"
 
 #include <iostream>
 #include <fstream>
@@ -17,7 +17,7 @@ Analisador::Analisador(const std::vector<int>& tamanhos, int repeticoes, const s
 //método principal para a execução
 void Analisador::executar(){
     std::ofstream arquivo(nome_arquivo_saida);
-    arquivo << "algoritmo, tamanho_n, tempo_medio_ms\n"; //infos para o CSV
+    arquivo << "algoritmo,tamanho_n,tempo_medio_ms\n"; //infos para o CSV
 
 
     auto insertion_sort = criar_insertion_sort();
@@ -63,7 +63,7 @@ void Analisador::executar(){
     }
 
     arquivo.close();
-    std::cout << "\nAnálise concluida, os resultados foram salvos em" << nome_arquivo_saida << "\n";
+    std::cout << "\nAnalise concluida! Os resultados foram salvos em '" << nome_arquivo_saida << "'\n";
 }
 
 //implementação das funções auxiliares
@@ -105,3 +105,4 @@ double Analisador::medir_tempo_busca(AlgoritmoBusca* algoritmo, const std::vecto
     double soma = std::accumulate(tempos.begin(), tempos.end(), 0.0);
     return soma / repeticoes;
 }
+

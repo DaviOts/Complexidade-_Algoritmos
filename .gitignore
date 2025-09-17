@@ -1,0 +1,16 @@
+#arquivos e pastas do python
+/.venv/
+__pycache__/
+*.pyc
+
+#arquivos de configuração de editores
+/.vscode/
+.idea/
+
+#arquivos compilados e executáveis
+*.o
+programa_analise
+
+# Resultados gerados (CSV e imagens)
+*.csv
+*.png

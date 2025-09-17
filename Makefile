@@ -31,6 +31,6 @@ $(EXECUTABLE): $(OBJECTS)
 
 #clean serve para limpar os arquivos gerados, no caso os executaveis e os .o
 clean:
-	rm -f $(EXECUTABLE) $(OBJECTS)
+	rm -f $(EXECUTABLE) $(OBJECTS) *.csv *.png
 
 .PHONY: all clean
